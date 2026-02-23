@@ -1,0 +1,19 @@
+//day 4.1 - 100 days of code
+// wap to swap two number without using third
+//tanaysah
+#include <stdio.h>
+int main()
+{
+    int no1, no2;
+    printf("Enter the first number: ");
+    scanf("%d", &no1);
+    printf("Enter the second number: ");
+    scanf("%d", &no2);
+
+    no1 = no1 + no2;  
+    no2 = no1 - no2;  
+    no1 = no1 - no2;  
+
+    printf("Numbers swapped successfully: %d, %d\n", no1, no2);
+    return 0;
+}
